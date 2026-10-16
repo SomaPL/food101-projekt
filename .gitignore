@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Środowiska wirtualne i sekrety
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Machine learning
+.ipynb_checkpoints/
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# IDE i system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
