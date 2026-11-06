@@ -22,6 +22,7 @@ checkpoints/
 outputs/
 logs/
 wandb/
+scratch/
 *.pt
 *.pth
 *.ckpt
@@ -33,3 +34,5 @@ wandb/
 .vscode/
 .DS_Store
 Thumbs.db
+CLAUDE.md
+docs/

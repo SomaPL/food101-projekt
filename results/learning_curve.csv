@@ -1,0 +1,10 @@
+run,strategy,aug,n_per_class,best_epoch,val_acc,test_acc,test_macro_f1,epochs,lr,train_time_s,device
+linear_probe_n10,linear_probe,False,10,70,0.6240000128746033,0.6075,0.610701075349688,500,0.01,0,cpu
+linear_probe_n25,linear_probe,False,25,60,0.6579999923706055,0.6575,0.660225751592821,500,0.01,0,cpu
+linear_probe_n50,linear_probe,False,50,50,0.6899999976158142,0.697,0.6984240677659739,500,0.01,0,cpu
+linear_probe_n100,linear_probe,False,100,60,0.7239999771118164,0.721,0.7210182963348052,500,0.01,0,cpu
+linear_probe_n10,linear_probe,False,10,70,0.6240000128746033,0.6075,0.610701075349688,500,0.01,0,cpu
+linear_probe_n25,linear_probe,False,25,60,0.6579999923706055,0.6575,0.660225751592821,500,0.01,0,cpu
+linear_probe_n50,linear_probe,False,50,50,0.6899999976158142,0.697,0.6984240677659739,500,0.01,0,cpu
+linear_probe_n100,linear_probe,False,100,60,0.7239999771118164,0.721,0.7210182963348052,500,0.01,0,cpu
+finetune_aug_n10,finetune,True,10,15,0.587,0.597,0.5961950989842862,15,0.0003,308,cpu
